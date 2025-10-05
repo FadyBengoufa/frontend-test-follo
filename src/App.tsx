@@ -27,7 +27,7 @@ function App() {
         </div>
         {/* 3. ADD CHIPS */}
         <div className="mt-8">
-          <div className="flex gap-2">
+          <div className="flex gap-2 font-inter">
             <Chip className="bg-purple-secondary rounded-full text-white px-5 text-nowrap">
               test 1
             </Chip>

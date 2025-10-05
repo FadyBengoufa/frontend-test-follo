@@ -1,5 +1,5 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 /* Import the HeroUI plugin */
 @plugin './hero.ts';
@@ -10,20 +10,21 @@
 */
 @source '../node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}';
 
-
 @theme {
-  --color-default-200: #E4E4E7;
-  --color-default-100: #FFFFFF;
-  --color-purple-secondary: #6E25BA;
-  --color-warning-500: #F5A524;
-  --color-success-500: #17C964;
-  --color-primary: #006FEE;
+  --color-default-200: #e4e4e7;
+  --color-default-100: #ffffff;
+  --color-purple-secondary: #6e25ba;
+  --color-warning-500: #f5a524;
+  --color-success-500: #17c964;
+  --color-primary: #006fee;
 
   --radius-medium: 5px;
   --border-width-3: 3px;
+
+  --font-inter: "Inter", sans-serif;
 }
 
-body{
-  font-family: 'Tinos', sans-serif;
+body {
+  font-family: "Tinos", sans-serif;
   font-weight: 400;
 }
