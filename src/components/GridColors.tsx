@@ -21,7 +21,7 @@ const GridColors = () => {
         value={String(numItems)}
         onChange={(e) => setNumItems(Number(e.target.value))}
       />
-      <div className="flex gap-1 mt-4 flex-wrap">
+      <div className="flex gap-1 mt-4 flex-wrap border border-default-200 rounded-medium p-2">
         {Array.from({ length: numItems }).map((_, index) => (
           <span
             key={index}

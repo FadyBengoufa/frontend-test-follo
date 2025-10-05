@@ -15,7 +15,7 @@ function App() {
           <Input
             label="Password"
             type="password"
-            className="border-3 border-default-200 rounded-medium focus:border-3"
+            className="border-3 border-default-200 rounded-medium"
           />
         </div>
 
